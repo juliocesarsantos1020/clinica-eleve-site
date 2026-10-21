@@ -1,10 +1,21 @@
-# Site Clínica Eleve (Ana Araujo): versão SEO
+# Site Clínica Eleve (Ana Araujo): versão enxuta (sem destaques, benefícios e fontes)
 
 Site estático (HTML, CSS e JS puro), responsivo, sem build.
 
 Gerado em 2026-10-20 a partir da wiki do tópico `clinica-eleve-psicologia`:
-- conceito [[Por que fazer terapia e seus benefícios]] (seção de benefícios e FAQ);
+- conceito [[Por que fazer terapia e seus benefícios]] (atualizado com fontes da APA, SciELO, PubMed e CRP-12);
 - fontes oficiais em `raw/articles/` (dados da clínica e apresentação da Ana).
+
+## O que mudou em relação à versão `-beneficios`
+
+Removidos da seção "Por que fazer terapia":
+- o bloco "O que as pesquisas mostram" (3 destaques, incluindo o da terapia online);
+- os seis benefícios com ícones;
+- as citações numeradas e a lista "Fontes e referências";
+- o aviso "O processo tem altos e baixos";
+- o aviso de que cada pessoa vive a terapia de um jeito e de que a terapia não substitui o cuidado médico.
+
+Mantidos: "Quando procurar terapia", "Terapia é movimento, não só desabafo", a linha de crise (CVV 188 e SAMU 192) e o vínculo ao CRP-12 no rodapé.
 
 ## Antes de publicar
 

@@ -229,6 +229,7 @@ p { margin: 0 0 1em; }
   .split { grid-template-columns: 1fr; }
 }
 
+
 /* ---------- Responsivo ---------- */
 @media (max-width: 900px) {
   .hero-inner, .about { grid-template-columns: 1fr; }
