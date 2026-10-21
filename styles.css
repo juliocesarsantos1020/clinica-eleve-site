@@ -175,19 +175,11 @@ p { margin: 0 0 1em; }
 .cta-inner .btn { margin-top: .6rem; }
 
 /* ---------- Rodapé ---------- */
-.site-footer { background: var(--creme-escuro); padding: 2.5rem 0 5.5rem; font-size: .92rem; color: var(--texto-suave); }
+.site-footer { background: var(--creme-escuro); padding: 2.5rem 0; font-size: .92rem; color: var(--texto-suave); }
 .footer-inner { display: grid; gap: 1.2rem; }
 .footer-brand { display: flex; align-items: center; gap: .9rem; }
 .footer-brand strong { color: var(--dourado-escuro); font-family: var(--font-title); font-size: 1.2rem; }
 .footer-brand p, .footer-note, .footer-copy { margin: 0; }
-
-/* ---------- Barra fixa de WhatsApp (celular) ---------- */
-.whatsapp-bar {
-  display: none; position: fixed; left: 0; right: 0; bottom: 0; z-index: 60;
-  background: var(--dourado-escuro); color: var(--creme-claro); text-align: center; text-decoration: none;
-  font-weight: 600; padding: 1rem 1rem calc(1rem + env(safe-area-inset-bottom));
-  box-shadow: 0 -6px 20px rgba(58, 47, 30, .2);
-}
 
 
 /* ---------- Seção: por que fazer terapia ---------- */
@@ -251,7 +243,6 @@ p { margin: 0 0 1em; }
   .nav.is-open { display: flex; }
   .nav a:not(.btn) { padding: .95rem 0; border-bottom: 1px solid rgba(184, 146, 74, .2); }
   .nav .btn { margin-top: 1rem; }
-  .whatsapp-bar { display: block; }
 }
 
 @media (max-width: 760px) {
