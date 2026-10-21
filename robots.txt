@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://juliocesarsantos1020.github.io/clinica-eleve-site/sitemap.xml
